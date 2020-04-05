@@ -1,0 +1,1519 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 05:22:12
+* VERSION: 1.3.28
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.0.3                                 |7.0.3
+OS__________________: WINNT                                 |WINNT
+CREATED_____________: 2020-04-02 17:14:48
+WP VERSION__________: 5.3.2
+DUP VERSION_________: 1.3.28
+DB__________________: 5.7.11
+DB TABLES___________: 48
+DB ROWS_____________: 3,930
+DB FILE SIZE________: 14.88MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.0.3 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3
+DOC ROOT____________: "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/Office%20du%20tourisme%20-%20Ireki%20(Officiel)/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "Office_du_tourisme___Ireki_Officiel_34f6c9fbb62d7ea64627_20200402171448_archive.zip"
+SIZE________________: 93.97MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 8541
+    [filename] => C:\UwAmp\www\Office du tourisme - Ireki (Officiel)\Office_du_tourisme___Ireki_Officiel_34f6c9fbb62d7ea64627_20200402171448_archive.zip
+    [comment] => 
+)
+File timestamp set to Current: 2020-04-02 17:22:37
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 05:22:37 - RUNTIME: 25.0458 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 05:26:15
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "create"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.11 -- Build Server: 5.7.11
+FILE SIZE:	dup-database__34f6c9f-02171448.sql (9.32MB)
+TIMEOUT:	5000
+MAXPACK:	4194304
+SQLMODE:	STRICT_TRANS_TABLES,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/UwAmp/www/Office du tourisme - Ireki (Officiel)/dup-installer/dup-installer-data__34f6c9f-02171448.sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	4035
+
+aap2opnclssrm_actionscheduler_actions: (26)
+aap2opnclssrm_actionscheduler_claims: (0)
+aap2opnclssrm_actionscheduler_groups: (2)
+aap2opnclssrm_actionscheduler_logs: (77)
+aap2opnclssrm_blc_filters: (0)
+aap2opnclssrm_blc_instances: (47)
+aap2opnclssrm_blc_links: (41)
+aap2opnclssrm_blc_synch: (33)
+aap2opnclssrm_commentmeta: (6)
+aap2opnclssrm_comments: (4)
+aap2opnclssrm_duplicator_packages: (0)
+aap2opnclssrm_em_bookings: (0)
+aap2opnclssrm_em_events: (10)
+aap2opnclssrm_em_locations: (1)
+aap2opnclssrm_em_meta: (0)
+aap2opnclssrm_em_tickets: (9)
+aap2opnclssrm_em_tickets_bookings: (0)
+aap2opnclssrm_itsec_distributed_storage: (0)
+aap2opnclssrm_itsec_fingerprints: (0)
+aap2opnclssrm_itsec_geolocation_cache: (0)
+aap2opnclssrm_itsec_lockouts: (0)
+aap2opnclssrm_itsec_logs: (21)
+aap2opnclssrm_itsec_opaque_tokens: (0)
+aap2opnclssrm_itsec_temp: (0)
+aap2opnclssrm_links: (0)
+aap2opnclssrm_nf3_action_meta: (143)
+aap2opnclssrm_nf3_actions: (5)
+aap2opnclssrm_nf3_chunks: (0)
+aap2opnclssrm_nf3_field_meta: (547)
+aap2opnclssrm_nf3_fields: (18)
+aap2opnclssrm_nf3_form_meta: (152)
+aap2opnclssrm_nf3_forms: (2)
+aap2opnclssrm_nf3_object_meta: (0)
+aap2opnclssrm_nf3_objects: (0)
+aap2opnclssrm_nf3_relationships: (0)
+aap2opnclssrm_nf3_upgrades: (2)
+aap2opnclssrm_options: (670)
+aap2opnclssrm_postmeta: (1030)
+aap2opnclssrm_posts: (498)
+aap2opnclssrm_term_relationships: (69)
+aap2opnclssrm_term_taxonomy: (62)
+aap2opnclssrm_termmeta: (0)
+aap2opnclssrm_terms: (62)
+aap2opnclssrm_usermeta: (74)
+aap2opnclssrm_users: (2)
+aap2opnclssrm_wpforms_tasks_meta: (1)
+aap2opnclssrm_yoast_seo_links: (101)
+aap2opnclssrm_yoast_seo_meta: (214)
+Removed '55' cache/transient rows
+
+INSERT DATA RUNTIME: 24.0496 sec.
+STEP-2 COMPLETE @ 05:26:39 - RUNTIME: 24.0655 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 05:28:06
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Office Du Tourisme - Ireki"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "C:/UwAmp/www/p2-openclassroom/wordpress"
+path_new______________: "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+siteurl_______________: "http://localhost/Officedutourisme-Ireki(Officiel)"
+url_old_______________: "http://localhost/p2-openclassroom/wordpress"
+url_new_______________: "http://localhost/Officedutourisme-Ireki(Officiel)"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "root"
+dbname________________: "p2-openclassroom"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: true
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "aap2opnclssrm_actionscheduler_actions"___________[ROWS:    26][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+	SEARCH 10:"https://localhost/Officedutourisme-Ireki(Officiel)" => "http://localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH 11:"https:\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "http:\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "http%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+
+EVALUATE TABLE: "aap2opnclssrm_actionscheduler_claims"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_actionscheduler_groups"____________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+	SEARCH 10:"https://localhost/Officedutourisme-Ireki(Officiel)" => "http://localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH 11:"https:\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "http:\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "http%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+
+EVALUATE TABLE: "aap2opnclssrm_actionscheduler_logs"______________[ROWS:    77][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+	SEARCH 10:"https://localhost/Officedutourisme-Ireki(Officiel)" => "http://localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH 11:"https:\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "http:\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "http%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+
+EVALUATE TABLE: "aap2opnclssrm_blc_filters"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_blc_instances"_____________________[ROWS:    47][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+	SEARCH 10:"https://localhost/Officedutourisme-Ireki(Officiel)" => "http://localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH 11:"https:\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "http:\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "http%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+
+EVALUATE TABLE: "aap2opnclssrm_blc_links"_________________________[ROWS:    41][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+	SEARCH 10:"https://localhost/Officedutourisme-Ireki(Officiel)" => "http://localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH 11:"https:\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "http:\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "http%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+
+EVALUATE TABLE: "aap2opnclssrm_blc_synch"_________________________[ROWS:    33][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+	SEARCH 10:"https://localhost/Officedutourisme-Ireki(Officiel)" => "http://localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH 11:"https:\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "http:\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "http%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+
+EVALUATE TABLE: "aap2opnclssrm_commentmeta"_______________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+	SEARCH 10:"https://localhost/Officedutourisme-Ireki(Officiel)" => "http://localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH 11:"https:\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "http:\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "http%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+
+EVALUATE TABLE: "aap2opnclssrm_comments"__________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+	SEARCH 10:"https://localhost/Officedutourisme-Ireki(Officiel)" => "http://localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH 11:"https:\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "http:\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "http%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+
+EVALUATE TABLE: "aap2opnclssrm_duplicator_packages"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_em_bookings"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_em_events"_________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+	SEARCH 10:"https://localhost/Officedutourisme-Ireki(Officiel)" => "http://localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH 11:"https:\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "http:\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "http%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+
+EVALUATE TABLE: "aap2opnclssrm_em_locations"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+	SEARCH 10:"https://localhost/Officedutourisme-Ireki(Officiel)" => "http://localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH 11:"https:\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "http:\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "http%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+
+EVALUATE TABLE: "aap2opnclssrm_em_meta"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_em_tickets"________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+	SEARCH 10:"https://localhost/Officedutourisme-Ireki(Officiel)" => "http://localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH 11:"https:\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "http:\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "http%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+
+EVALUATE TABLE: "aap2opnclssrm_em_tickets_bookings"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_itsec_distributed_storage"_________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_itsec_fingerprints"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_itsec_geolocation_cache"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_itsec_lockouts"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_itsec_logs"________________________[ROWS:    21][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+	SEARCH 10:"https://localhost/Officedutourisme-Ireki(Officiel)" => "http://localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH 11:"https:\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "http:\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "http%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+
+EVALUATE TABLE: "aap2opnclssrm_itsec_opaque_tokens"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_itsec_temp"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_links"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_nf3_action_meta"___________________[ROWS:   143][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+	SEARCH 10:"https://localhost/Officedutourisme-Ireki(Officiel)" => "http://localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH 11:"https:\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "http:\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "http%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+
+EVALUATE TABLE: "aap2opnclssrm_nf3_actions"_______________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+	SEARCH 10:"https://localhost/Officedutourisme-Ireki(Officiel)" => "http://localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH 11:"https:\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "http:\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "http%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+
+EVALUATE TABLE: "aap2opnclssrm_nf3_chunks"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_nf3_field_meta"____________________[ROWS:   547][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+	SEARCH 10:"https://localhost/Officedutourisme-Ireki(Officiel)" => "http://localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH 11:"https:\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "http:\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "http%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+
+EVALUATE TABLE: "aap2opnclssrm_nf3_fields"________________________[ROWS:    18][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+	SEARCH 10:"https://localhost/Officedutourisme-Ireki(Officiel)" => "http://localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH 11:"https:\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "http:\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "http%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+
+EVALUATE TABLE: "aap2opnclssrm_nf3_form_meta"_____________________[ROWS:   152][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+	SEARCH 10:"https://localhost/Officedutourisme-Ireki(Officiel)" => "http://localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH 11:"https:\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "http:\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "http%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+
+EVALUATE TABLE: "aap2opnclssrm_nf3_forms"_________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+	SEARCH 10:"https://localhost/Officedutourisme-Ireki(Officiel)" => "http://localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH 11:"https:\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "http:\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "http%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+
+EVALUATE TABLE: "aap2opnclssrm_nf3_object_meta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_nf3_objects"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_nf3_relationships"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_nf3_upgrades"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+	SEARCH 10:"https://localhost/Officedutourisme-Ireki(Officiel)" => "http://localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH 11:"https:\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "http:\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "http%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+
+EVALUATE TABLE: "aap2opnclssrm_options"___________________________[ROWS:   670][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+	SEARCH 10:"https://localhost/Officedutourisme-Ireki(Officiel)" => "http://localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH 11:"https:\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "http:\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "http%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+
+EVALUATE TABLE: "aap2opnclssrm_postmeta"__________________________[ROWS:  1030][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+	SEARCH 10:"https://localhost/Officedutourisme-Ireki(Officiel)" => "http://localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH 11:"https:\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "http:\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "http%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+
+EVALUATE TABLE: "aap2opnclssrm_posts"_____________________________[ROWS:   498][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+	SEARCH 10:"https://localhost/Officedutourisme-Ireki(Officiel)" => "http://localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH 11:"https:\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "http:\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "http%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+
+EVALUATE TABLE: "aap2opnclssrm_term_relationships"________________[ROWS:    69][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+	SEARCH 10:"https://localhost/Officedutourisme-Ireki(Officiel)" => "http://localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH 11:"https:\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "http:\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "http%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+
+EVALUATE TABLE: "aap2opnclssrm_term_taxonomy"_____________________[ROWS:    62][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+	SEARCH 10:"https://localhost/Officedutourisme-Ireki(Officiel)" => "http://localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH 11:"https:\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "http:\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "http%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+
+EVALUATE TABLE: "aap2opnclssrm_termmeta"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_terms"_____________________________[ROWS:    62][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+	SEARCH 10:"https://localhost/Officedutourisme-Ireki(Officiel)" => "http://localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH 11:"https:\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "http:\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "http%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+
+EVALUATE TABLE: "aap2opnclssrm_usermeta"__________________________[ROWS:    74][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+	SEARCH 10:"https://localhost/Officedutourisme-Ireki(Officiel)" => "http://localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH 11:"https:\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "http:\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "http%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+
+EVALUATE TABLE: "aap2opnclssrm_users"_____________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+	SEARCH 10:"https://localhost/Officedutourisme-Ireki(Officiel)" => "http://localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH 11:"https:\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "http:\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "http%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+
+EVALUATE TABLE: "aap2opnclssrm_wpforms_tasks_meta"________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+	SEARCH 10:"https://localhost/Officedutourisme-Ireki(Officiel)" => "http://localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH 11:"https:\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "http:\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "http%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+
+EVALUATE TABLE: "aap2opnclssrm_yoast_seo_links"___________________[ROWS:   101][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+	SEARCH 10:"https://localhost/Officedutourisme-Ireki(Officiel)" => "http://localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH 11:"https:\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "http:\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "http%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+
+EVALUATE TABLE: "aap2opnclssrm_yoast_seo_meta"____________________[ROWS:   214][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+	SEARCH 10:"https://localhost/Officedutourisme-Ireki(Officiel)" => "http://localhost/Officedutourisme-Ireki(Officiel)"
+	SEARCH 11:"https:\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "http:\/\/localhost\/Officedutourisme-Ireki(Officiel)"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "http%3A%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29"
+--------------------------------------
+SCANNED:	Tables:48 	|	 Rows:3929 	|	 Cells:29038 
+UPDATED:	Tables:10 	|	 Rows:703 	|	 Cells:951 
+ERRORS:		0 
+RUNTIME:	2.576700 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""p2-openclassroom""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE WP_CACHE true
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__34f6c9f-02171448' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 05:28:09 - RUNTIME: 2.8297 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+htaccess ark file don' exists
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 05:29:46
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Office Du Tourisme - Ireki"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "C:/UwAmp/www/p2-openclassroom/wordpress"
+path_new______________: "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+siteurl_______________: "http://localhost/Office-du-tourisme-Ireki"
+url_old_______________: "http://localhost/p2-openclassroom/wordpress"
+url_new_______________: "http://localhost/Office-du-tourisme-Ireki"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "root"
+dbname________________: "p2-openclassroom"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: true
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "aap2opnclssrm_actionscheduler_actions"___________[ROWS:    26][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 10:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 11:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 13:"//localhost/Officedutourisme-Ireki(Officiel)" ====> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH 14:"\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 15:"%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 16:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 17:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 18:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+
+EVALUATE TABLE: "aap2opnclssrm_actionscheduler_claims"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_actionscheduler_groups"____________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 10:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 11:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 13:"//localhost/Officedutourisme-Ireki(Officiel)" ====> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH 14:"\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 15:"%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 16:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 17:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 18:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+
+EVALUATE TABLE: "aap2opnclssrm_actionscheduler_logs"______________[ROWS:    77][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 10:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 11:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 13:"//localhost/Officedutourisme-Ireki(Officiel)" ====> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH 14:"\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 15:"%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 16:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 17:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 18:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+
+EVALUATE TABLE: "aap2opnclssrm_blc_filters"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_blc_instances"_____________________[ROWS:    47][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 10:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 11:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 13:"//localhost/Officedutourisme-Ireki(Officiel)" ====> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH 14:"\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 15:"%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 16:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 17:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 18:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+
+EVALUATE TABLE: "aap2opnclssrm_blc_links"_________________________[ROWS:    41][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 10:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 11:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 13:"//localhost/Officedutourisme-Ireki(Officiel)" ====> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH 14:"\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 15:"%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 16:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 17:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 18:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+
+EVALUATE TABLE: "aap2opnclssrm_blc_synch"_________________________[ROWS:    33][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 10:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 11:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 13:"//localhost/Officedutourisme-Ireki(Officiel)" ====> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH 14:"\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 15:"%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 16:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 17:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 18:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+
+EVALUATE TABLE: "aap2opnclssrm_commentmeta"_______________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 10:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 11:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 13:"//localhost/Officedutourisme-Ireki(Officiel)" ====> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH 14:"\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 15:"%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 16:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 17:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 18:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+
+EVALUATE TABLE: "aap2opnclssrm_comments"__________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 10:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 11:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 13:"//localhost/Officedutourisme-Ireki(Officiel)" ====> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH 14:"\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 15:"%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 16:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 17:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 18:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+
+EVALUATE TABLE: "aap2opnclssrm_duplicator_packages"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_em_bookings"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_em_events"_________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 10:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 11:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 13:"//localhost/Officedutourisme-Ireki(Officiel)" ====> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH 14:"\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 15:"%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 16:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 17:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 18:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+
+EVALUATE TABLE: "aap2opnclssrm_em_locations"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 10:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 11:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 13:"//localhost/Officedutourisme-Ireki(Officiel)" ====> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH 14:"\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 15:"%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 16:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 17:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 18:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+
+EVALUATE TABLE: "aap2opnclssrm_em_meta"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_em_tickets"________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 10:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 11:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 13:"//localhost/Officedutourisme-Ireki(Officiel)" ====> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH 14:"\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 15:"%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 16:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 17:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 18:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+
+EVALUATE TABLE: "aap2opnclssrm_em_tickets_bookings"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_itsec_distributed_storage"_________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_itsec_fingerprints"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_itsec_geolocation_cache"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_itsec_lockouts"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_itsec_logs"________________________[ROWS:    21][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 10:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 11:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 13:"//localhost/Officedutourisme-Ireki(Officiel)" ====> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH 14:"\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 15:"%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 16:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 17:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 18:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+
+EVALUATE TABLE: "aap2opnclssrm_itsec_opaque_tokens"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_itsec_temp"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_links"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_nf3_action_meta"___________________[ROWS:   143][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 10:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 11:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 13:"//localhost/Officedutourisme-Ireki(Officiel)" ====> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH 14:"\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 15:"%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 16:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 17:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 18:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+
+EVALUATE TABLE: "aap2opnclssrm_nf3_actions"_______________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 10:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 11:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 13:"//localhost/Officedutourisme-Ireki(Officiel)" ====> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH 14:"\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 15:"%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 16:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 17:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 18:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+
+EVALUATE TABLE: "aap2opnclssrm_nf3_chunks"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_nf3_field_meta"____________________[ROWS:   547][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 10:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 11:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 13:"//localhost/Officedutourisme-Ireki(Officiel)" ====> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH 14:"\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 15:"%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 16:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 17:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 18:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+
+EVALUATE TABLE: "aap2opnclssrm_nf3_fields"________________________[ROWS:    18][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 10:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 11:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 13:"//localhost/Officedutourisme-Ireki(Officiel)" ====> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH 14:"\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 15:"%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 16:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 17:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 18:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+
+EVALUATE TABLE: "aap2opnclssrm_nf3_form_meta"_____________________[ROWS:   152][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 10:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 11:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 13:"//localhost/Officedutourisme-Ireki(Officiel)" ====> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH 14:"\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 15:"%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 16:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 17:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 18:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+
+EVALUATE TABLE: "aap2opnclssrm_nf3_forms"_________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 10:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 11:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 13:"//localhost/Officedutourisme-Ireki(Officiel)" ====> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH 14:"\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 15:"%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 16:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 17:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 18:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+
+EVALUATE TABLE: "aap2opnclssrm_nf3_object_meta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_nf3_objects"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_nf3_relationships"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_nf3_upgrades"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 10:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 11:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 13:"//localhost/Officedutourisme-Ireki(Officiel)" ====> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH 14:"\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 15:"%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 16:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 17:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 18:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+
+EVALUATE TABLE: "aap2opnclssrm_options"___________________________[ROWS:   671][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 10:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 11:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 13:"//localhost/Officedutourisme-Ireki(Officiel)" ====> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH 14:"\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 15:"%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 16:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 17:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 18:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+
+EVALUATE TABLE: "aap2opnclssrm_postmeta"__________________________[ROWS:  1030][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 10:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 11:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 13:"//localhost/Officedutourisme-Ireki(Officiel)" ====> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH 14:"\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 15:"%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 16:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 17:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 18:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+
+EVALUATE TABLE: "aap2opnclssrm_posts"_____________________________[ROWS:   498][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 10:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 11:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 13:"//localhost/Officedutourisme-Ireki(Officiel)" ====> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH 14:"\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 15:"%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 16:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 17:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 18:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+
+EVALUATE TABLE: "aap2opnclssrm_term_relationships"________________[ROWS:    69][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 10:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 11:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 13:"//localhost/Officedutourisme-Ireki(Officiel)" ====> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH 14:"\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 15:"%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 16:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 17:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 18:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+
+EVALUATE TABLE: "aap2opnclssrm_term_taxonomy"_____________________[ROWS:    62][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 10:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 11:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 13:"//localhost/Officedutourisme-Ireki(Officiel)" ====> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH 14:"\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 15:"%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 16:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 17:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 18:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+
+EVALUATE TABLE: "aap2opnclssrm_termmeta"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "aap2opnclssrm_terms"_____________________________[ROWS:    62][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 10:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 11:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 13:"//localhost/Officedutourisme-Ireki(Officiel)" ====> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH 14:"\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 15:"%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 16:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 17:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 18:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+
+EVALUATE TABLE: "aap2opnclssrm_usermeta"__________________________[ROWS:    74][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 10:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 11:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 13:"//localhost/Officedutourisme-Ireki(Officiel)" ====> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH 14:"\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 15:"%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 16:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 17:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 18:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+
+EVALUATE TABLE: "aap2opnclssrm_users"_____________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 10:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 11:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 13:"//localhost/Officedutourisme-Ireki(Officiel)" ====> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH 14:"\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 15:"%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 16:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 17:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 18:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+
+EVALUATE TABLE: "aap2opnclssrm_wpforms_tasks_meta"________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 10:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 11:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 13:"//localhost/Officedutourisme-Ireki(Officiel)" ====> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH 14:"\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 15:"%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 16:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 17:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 18:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+
+EVALUATE TABLE: "aap2opnclssrm_yoast_seo_links"___________________[ROWS:   101][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 10:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 11:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 13:"//localhost/Officedutourisme-Ireki(Officiel)" ====> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH 14:"\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 15:"%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 16:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 17:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 18:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+
+EVALUATE TABLE: "aap2opnclssrm_yoast_seo_meta"____________________[ROWS:   214][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/UwAmp/www/p2-openclassroom/wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  2:"C:\/UwAmp\/www\/p2-openclassroom\/wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  3:"C%3A%2FUwAmp%2Fwww%2Fp2-openclassroom%2Fwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  4:"C:\UwAmp\www\p2-openclassroom\wordpress" =========> "C:/UwAmp/www/Office du tourisme - Ireki (Officiel)"
+	SEARCH  5:"C:\\UwAmp\\www\\p2-openclassroom\\wordpress" =====> "C:\/UwAmp\/www\/Office du tourisme - Ireki (Officiel)"
+	SEARCH  6:"C%3A%5CUwAmp%5Cwww%5Cp2-openclassroom%5Cwordpress" => "C%3A%2FUwAmp%2Fwww%2FOffice+du+tourisme+-+Ireki+%28Officiel%29"
+	SEARCH  7:"//localhost/p2-openclassroom/wordpress" ==========> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH  8:"\/\/localhost\/p2-openclassroom\/wordpress" ======> "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH  9:"%2F%2Flocalhost%2Fp2-openclassroom%2Fwordpress" ==> "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 10:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 11:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 13:"//localhost/Officedutourisme-Ireki(Officiel)" ====> "//localhost/Office-du-tourisme-Ireki"
+	SEARCH 14:"\/\/localhost\/Officedutourisme-Ireki(Officiel)" => "\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 15:"%2F%2Flocalhost%2FOfficedutourisme-Ireki%28Officiel%29" => "%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+	SEARCH 16:"https://localhost/Office-du-tourisme-Ireki" ======> "http://localhost/Office-du-tourisme-Ireki"
+	SEARCH 17:"https:\/\/localhost\/Office-du-tourisme-Ireki" ===> "http:\/\/localhost\/Office-du-tourisme-Ireki"
+	SEARCH 18:"https%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki" => "http%3A%2F%2Flocalhost%2FOffice-du-tourisme-Ireki"
+--------------------------------------
+SCANNED:	Tables:48 	|	 Rows:3930 	|	 Cells:29042 
+UPDATED:	Tables:10 	|	 Rows:702 	|	 Cells:950 
+ERRORS:		0 
+RUNTIME:	1.945000 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""p2-openclassroom""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE WP_CACHE true
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+[PHP ERR][WARN] MSG:file_get_contents(C:/UwAmp/www/Office du tourisme - Ireki (Officiel)/dup-installer/dup-orig-htaccess__34f6c9f-02171448.txt): failed to open stream: No such file or directory [CODE:2|FILE:C:\UwAmp\www\Office du tourisme - Ireki (Officiel)\dup-installer\classes\class.s3.func.php|LINE:1236]
+
+STEP-3 COMPLETE @ 05:29:48 - RUNTIME: 2.1930 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

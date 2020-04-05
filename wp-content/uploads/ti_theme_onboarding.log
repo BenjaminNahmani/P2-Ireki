@@ -1,0 +1,26 @@
+[29/Mar/2020:16:28:16] (ℹ️): WordPress Instance Info:
+[29/Mar/2020:16:28:16] (ℹ️): Home URL : http://localhost/p2-openclassroom/wordpress
+[29/Mar/2020:16:28:16] (ℹ️): Site URL : http://localhost/p2-openclassroom/wordpress
+[29/Mar/2020:16:28:16] (ℹ️): WordPress Version : 5.3.2
+[29/Mar/2020:16:28:16] (ℹ️): Onboarding Version : 1.7.12
+[29/Mar/2020:16:28:16] (ℹ️): Multisite : No
+[29/Mar/2020:16:28:16] (ℹ️): Server Info : Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3
+[29/Mar/2020:16:28:16] (ℹ️): PHP Version : 7.0.3
+[29/Mar/2020:16:28:16] (ℹ️): HTTPS : No
+[29/Mar/2020:16:28:16] (ℹ️): PHP Max Execution Time : 30
+[29/Mar/2020:16:28:16] (ℹ️): PHP Max Input Vars : 2000
+[29/Mar/2020:16:28:16] (ℹ️): Max Upload Size : 2097152
+[29/Mar/2020:16:28:16] (ℹ️): Plugins:
+[29/Mar/2020:16:28:16] (ℹ️): [PLUGIN] iThemes Security : v7.6.1 (iThemes)
+[29/Mar/2020:16:28:16] (ℹ️): [PLUGIN] Broken Link Checker : v1.11.12 (WPMU DEV)
+[29/Mar/2020:16:28:16] (ℹ️): [PLUGIN] GDPR tools: cookie notice + privacy : v1.5.1 (fabian heinz webdesign)
+[29/Mar/2020:16:28:16] (ℹ️): [PLUGIN] Events Manager : v5.9.7.3 (Marcus Sykes)
+[29/Mar/2020:16:28:16] (ℹ️): [PLUGIN] MonsterInsights - Google Analytics pour WordPress : v7.10.4 (MonsterInsights)
+[29/Mar/2020:16:28:16] (ℹ️): [PLUGIN] Ninja Forms : v3.4.24.1 (Saturday Drive)
+[29/Mar/2020:16:28:16] (ℹ️): [PLUGIN] Gutenberg Blocks and Template Library by Otter : v1.5.1 (ThemeIsle)
+[29/Mar/2020:16:28:16] (ℹ️): [PLUGIN] Post Grid by PickPlugins : v2.0.44 (PickPlugins)
+[29/Mar/2020:16:28:16] (ℹ️): [PLUGIN] Shortcodes Ultimate : v5.8.0 (Vladimir Anokhin)
+[29/Mar/2020:16:28:16] (ℹ️): [PLUGIN] Orbit Fox Companion : v2.9.4 (Themeisle)
+[29/Mar/2020:16:28:16] (ℹ️): [PLUGIN] Yoast SEO : v13.3 (L’équipe Yoast)
+[29/Mar/2020:16:28:16] (ℹ️): [PLUGIN] WP Latest Posts : v4.8.0 (JoomUnited)
+[29/Mar/2020:16:28:16] (ℹ️): [PLUGIN] WP Super Cache : v1.7.1 (Automattic)
